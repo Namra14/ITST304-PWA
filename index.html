@@ -4,38 +4,51 @@
   <meta charset="utf-8">
   <title>Catch Game</title>
   <style>
-    #game-container {
-  width: 400px;
-  height: 400px;
-  border: 1px solid black;
-  position: relative;
-}
+      #game-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 400px;
+        border: 10px solid black;
+        border-radius: 20px;
+        position: relative;
+      }
+      .fullscreen h1{
+        text-align: center;
+        font-size: 60px;
+        
+      }
+      .fullscreen h4{
+        text-align: center;
+        font-size: 20px;
+      }
+      #player {
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 25px);
+      }
 
-#player {
-  width: 50px;
-  height: 50px;
-  background-color: blue;
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
+      .falling-object {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        background-color: red;
+      }
 
-.falling-object {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 0;
-  background-color: red;
-}
-
-#score {
-  text-align: center;
-}
+      #score {
+        text-align: center;
+        font-weight: bold;
+      }
 
   </style>
 </head>
 <body class="fullscreen">
   <h1>Catch Game</h1>
+  <h4>Instruction: Player is the blue box which is need to move using <br>arrows keys to catch the red box to get a score</h4>
   <div id="game-container">
     <div id="player"></div>
     <div id="score">Score: <span id="score-value">0</span></div>
