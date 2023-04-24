@@ -1,6 +1,6 @@
 {
-  "name": "Welcome to ITST 304 - Mobile Computing",
-  "short_name": "LSPU CCS",
+  "name": "Catch Game - An ITST304 Activity",
+  "short_name": "Catch Game",
   "icons": [{
     "src": "images/logo-ccs-60.png",
       "sizes": "60x60",
