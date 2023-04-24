@@ -46,3 +46,5 @@ setInterval(() => {
   score++;
   scoreValue.innerText = score;
 }, 1000);
+
+

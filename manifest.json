@@ -12,7 +12,8 @@
       "sizes": "90x90",
       "type": "image/png",
       "purpose": "any maskable"
-    }, {
+    },
+{
       "src": "images/logo-ccs-100.png",
       "sizes": "100x100",
       "type": "image/png",
